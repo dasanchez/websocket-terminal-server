@@ -1,7 +1,6 @@
 import functools
 import ssl
 import websockets
-# import asyncio
 
 class WServer:
     def __init__(self, server_out):
