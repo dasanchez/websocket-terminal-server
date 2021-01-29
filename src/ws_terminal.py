@@ -4,7 +4,6 @@ from prompt_toolkit import Application
 from prompt_toolkit.layout.layout import Layout
 from prompt_toolkit.widgets import(
     TextArea,
-    Button,
     Frame,
     Label,
     Checkbox
