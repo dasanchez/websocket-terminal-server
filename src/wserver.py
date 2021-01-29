@@ -32,7 +32,6 @@ class WServer:
 
     async def handler(self, websocket, _):
         self.connections.append(websocket)
-        # addr = websocket.remote_address[0]
         idx = self.connections.index(websocket)
         self.data_out("ev", f"{idx} has joined.")
         try:
