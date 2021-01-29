@@ -2,6 +2,8 @@
 
 A WebSockets interactive server
 
+![A screenshot of the terminal tool](screenshot.png)
+
 ## Requirements
 
 - Python 3.8.5
@@ -16,5 +18,5 @@ python3 ws_terminal.py
 
 - Press **Ctrl+q** to exit.
 - Press **tab** and **shift-tab** to change focus.
-- Press **Enter** while in the _Outbound message_ field to broadcast the message to all connected clients.
+- Press **Enter** to connect/disconnect and broadcast messages, depending on which field has focus.
 - You might need to run with `sudo` if you want to use ssl.
